@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.05.29 a las 12:02:35 PM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="https://t4is.uv.mx/usuarios">
+    <schemaBindings map="false">
+      <package name="https.t4is_uv_mx.usuarios"/>
+    </schemaBindings>
+    <bindings scd="tns:UsuarioRequest">
+      <class ref="https.t4is_uv_mx.usuarios.UsuarioRequest"/>
+    </bindings>
+    <bindings scd="tns:UsuarioResponse">
+      <class ref="https.t4is_uv_mx.usuarios.UsuarioResponse"/>
+    </bindings>
+    <bindings scd="tns:ModificarRequest">
+      <class ref="https.t4is_uv_mx.usuarios.ModificarRequest"/>
+    </bindings>
+    <bindings scd="tns:ModificarResponse">
+      <class ref="https.t4is_uv_mx.usuarios.ModificarResponse"/>
+    </bindings>
+    <bindings scd="tns:EliminarRequest">
+      <class ref="https.t4is_uv_mx.usuarios.EliminarRequest"/>
+    </bindings>
+    <bindings scd="tns:EliminarResponse">
+      <class ref="https.t4is_uv_mx.usuarios.EliminarResponse"/>
+    </bindings>
+    <bindings scd="tns:UsuariosRequest">
+      <class ref="https.t4is_uv_mx.usuarios.UsuariosRequest"/>
+    </bindings>
+    <bindings scd="tns:UsuariosResponse">
+      <class ref="https.t4is_uv_mx.usuarios.UsuariosResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
